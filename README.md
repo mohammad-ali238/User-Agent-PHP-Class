@@ -10,3 +10,18 @@ $user_agent = new Client_User_Agent;
 ``` bash
 $user_agent->getBrowser();
 ```
+
+2. To get mobile:
+``` bash
+$user_agent->getMobile();
+```
+
+3. To get Platform:
+``` bash
+$user_agent->getPlatform();
+```
+
+4. To get referrer:
+``` bash
+$user_agent->getReferrer();
+```
