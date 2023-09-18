@@ -119,19 +119,19 @@ class Possible_User_Agents {
     public $mobiles = [
         // legacy array, old values commented out
         'mobileexplorer' => 'Mobile Explorer',
-        // 'openwave'             => 'Open Wave',
-        // 'opera mini'           => 'Opera Mini',
-        // 'operamini'            => 'Opera Mini',
-        // 'elaine'               => 'Palm',
+        'openwave'             => 'Open Wave',
+        'opera mini'           => 'Opera Mini',
+        'operamini'            => 'Opera Mini',
+        'elaine'               => 'Palm',
         'palmsource' => 'Palm',
-        // 'digital paths'        => 'Palm',
-        // 'avantgo'              => 'Avantgo',
-        // 'xiino'                => 'Xiino',
+        'digital paths'        => 'Palm',
+        'avantgo'              => 'Avantgo',
+        'xiino'                => 'Xiino',
         'palmscape' => 'Palmscape',
-        // 'nokia'                => 'Nokia',
-        // 'ericsson'             => 'Ericsson',
-        // 'blackberry'           => 'BlackBerry',
-        // 'motorola'             => 'Motorola'
+        'nokia'                => 'Nokia',
+        'ericsson'             => 'Ericsson',
+        'blackberry'           => 'BlackBerry',
+        'motorola'             => 'Motorola'
 
         // Phones and Manufacturers
         'motorola'             => 'Motorola',
@@ -587,5 +587,3 @@ class Client_User_Agent {
     }
 
 }
-
-$client_user_agent = new Client_User_Agent;
