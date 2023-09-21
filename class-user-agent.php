@@ -4,7 +4,7 @@ defined('ABSPATH') || exit;
 
 /**
  * -------------------------------------------------------------------
- * User Agents Class
+ * User Agents Class2
  * -------------------------------------------------------------------
  *
  * This file contains four arrays of user agent data. It is used by the
